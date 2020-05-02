@@ -1,0 +1,79 @@
+body{
+    background-image: url(resources/code.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}
+.box{
+        width:50%;
+        padding:5px;
+        margin:17px;
+        border: 1px solid black;
+        text-align:center;
+        float:left;
+        background-color: #F2F3F4;
+      }
+      .index{
+        width:150px;
+        padding:2px;
+        margin:17px;
+        border: 1px solid black;
+        float:left !important;
+        background-color: #ABEBC6 ;
+      }
+      .login{
+          background-color:  #D7BDE2 ;
+        height:30px;
+        padding:2px;
+        margin-left:5px;
+        border: 1px solid black;
+        float:left;
+        padding-right:400px;
+      }
+      .login div{
+        float:right;
+        
+      }
+      img{
+          width:40%;
+          height:30%;
+          float:left;
+      }
+
+      .contactus{
+          background-color: #EDBB99;
+        float:left;
+        clear:left;
+        width:200px;
+        height:600px;
+        padding:5px;
+        margin-top: 18px;
+        margin-left: 10px;
+        border:1px solid black;
+      }
+      .contactus img{
+          float:right;
+          padding:5px;
+          margin:1px;
+          width:60px;
+      }
+      @media screen and (max-width: 600px) {
+      .login{
+          width:100%;
+          background-color: yellowgreen;
+      }
+      .contactus{
+        margin-top:25px;
+        float: right !important;
+        padding-left:50px;
+        height:340px;
+      }
+      .index{
+          margin-top:25px;
+          float: left !important;
+        }
+        .box{
+            width:400px;
+        }
+    }
+
+

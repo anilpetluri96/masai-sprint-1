@@ -1,0 +1,78 @@
+  .grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto; 
+  grid-template-rows:auto;
+    padding: 20px;
+    border:1px solid black;
+    grid-template: "top top top top"
+                   "left d l h";
+                   background-color: #C4DAF6;
+  }
+  
+  .grid div {
+    font-size: 30px;
+    text-align: center;
+    background-color: #EA96A7;
+  }
+  #item1{
+      width:100%;
+      height:50px;
+    grid-area:top;
+    border:3px dashed orangered;
+  }
+  #item2{
+    grid-area:left;
+    border:3px dashed orangered;
+    width:150px;
+  }
+  #item3{
+    grid-area:d;
+    border:3px dashed blue;
+    width:250px;
+    height:600px;
+    padding: 5px;
+  }
+  div > img{
+      width:250px;
+      height:200px;
+  }
+  #item4{
+    grid-area:l;
+    border:3px dashed blue;
+    width:250px;
+    height:600px;
+    padding: 5px;
+
+  }
+  #item5{
+    grid-area:h;
+    border:3px dashed blue;
+    width:250px;
+    height:600px;
+    padding: 5px;
+  }
+  #price{
+width:200px;
+  border: 1px solid black;
+  height:25px;
+  font-size: 25px;
+  padding: 5px;
+  background-color:olivedrab;
+  }
+  @media screen and (min-width: 600px) {
+#item1{
+ border: 5px dotted green !important;
+}
+#item2{
+    border: 10px dotted blue !important;
+   }
+}
+@media screen and (max-width: 768px) {
+    #item1{
+        border: 10px dashed red !important;
+    }
+    #item2{
+        border: 10px dashed blueviolet !important;
+    }
+}

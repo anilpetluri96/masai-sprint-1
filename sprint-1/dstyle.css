@@ -1,0 +1,106 @@
+.box{
+  width:100%;
+  height:40px;
+  border: 1px solid black;
+  margin:1px;
+  padding:1px;
+  text-align:center;
+  font-size:15px;
+        background-color: #ABEBC6;
+}
+.flex-box {
+  display: flex;
+  border: 1px solid black;
+  margin: 10px;
+background-color:  #DFDAE6; 
+}
+.flex-box #price{
+    width:100px;
+    border: 1px solid black;
+    height:25px;
+    font-size: 25px;
+    background-color: #C46B29;
+} 
+.index img{
+    width:80px;
+    height:50px;
+    margin-top: 1px;
+}
+.logout{
+    width: 100px;
+    float: right;
+    margin-right:100px;
+}
+
+.flex-box1 {
+  display: flex;
+  border: 1px solid black;
+  margin: 10px;
+  background-color:#A7ECC5;
+}
+.flex-box img{
+    width:200px;
+    height:150px
+}
+
+.flex-box div {
+  margin: 10px;
+  padding: 10px;
+  border: 1px dashed black;
+}
+#box1 div {
+  flex-direction:row;
+  flex-basis: 33%;
+  background-color:#EBC1D4;
+}
+#box2 div {
+  flex-direction:row;
+  flex-basis: 33%;
+  background-color:#B4EAA0;
+}
+
+#box3 div{
+  flex-direction:row;
+  flex-basis: 33%;
+  background-color: #9DE6EF;
+}
+
+.index{
+  height:350px;
+  width:150px;
+  padding:5px;
+  margin:10px;
+  border: 1px solid black;
+  float:left !important;
+  font-size:25px;
+  background-color:#DCE2BD;
+}
+
+@media screen and (max-width: 600px) {
+.box{
+    text-align:left;
+    background-color:blanchedalmond;
+    margin:5px;
+}
+.index{
+    float: left !important;
+    background-color: cornflowerblue;
+}
+.flex-box{
+    float:left !important;
+    background-color: greenyellow;
+    flex-direction: row-reverse;
+}
+#box1{
+    background-color: grey;
+font-size: 15px;
+}
+#box2{
+    background-color: lightsalmon;
+    font-size: 15px;
+}
+#box3{
+    background-color: lime;
+    font-size: 15px;;
+}
+}
